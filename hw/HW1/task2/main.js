@@ -5,7 +5,7 @@
 
 const block = document.querySelector(".small")
 
-let num = 500
+let num = 0
 
 const motion = function() {
     num += 20
