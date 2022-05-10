@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.big {
+    height: 100vh;
+    background: black;
+    position: relative;
+}
+
+.small {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+}
