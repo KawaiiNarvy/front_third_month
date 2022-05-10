@@ -8,7 +8,13 @@ const block = document.querySelector(".small")
 let num = 500
 
 const motion = function() {
-    block.style.left = `${num}px`
+    num += 20
+    block.style.left = `${num}px`;
+    if (num < 600) {
+        motion();
+    } else {
+        num = 0
+    }
 }
 
 block.addEventListener("mousedown", motion)
