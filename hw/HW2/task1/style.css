@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigBorder {
+    position: relative;
+    margin: 70px;
+    background: white;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.smallBorder {
+    left: 50px;
+    top: 50px;
+    right: 50px;
+    bottom: 50px;
+    position: absolute;
+    background: palevioletred;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+}
+
+.block {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: black;
+}
