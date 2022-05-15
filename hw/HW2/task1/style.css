@@ -11,24 +11,23 @@ body {
 }
 
 .bigBorder {
+    display: block;
     position: relative;
     margin: 70px;
+    padding: 0;
     background: white;
     width: 500px;
     height: 500px;
-    border: 1px solid black;
+    border: 3px solid black;
 }
 
 .smallBorder {
-    left: 50px;
-    top: 50px;
-    right: 50px;
-    bottom: 50px;
+    margin: 50px;
     position: absolute;
     background: palevioletred;
-    border: 1px solid black;
-    width: 400px;
-    height: 400px;
+    border: 3px solid black;
+    width: 394px;
+    height: 394px;
 }
 
 .block {

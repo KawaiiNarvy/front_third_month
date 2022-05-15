@@ -9,25 +9,25 @@ const motion = () => {
         block.style.left = `${x}px`;
         setTimeout(() => {
             motion()
-        }, 100)
+        }, 50)
     } else if (x == 450 && y < 450) {
         y += 10
         block.style.top = `${y}px`
         setTimeout(() => {
             motion()
-        }, 100)
+        }, 50)
     } else if (x > 0 && y == 450) {
         x -= 10
         block.style.left = `${x}px`
         setTimeout(() => {
             motion()
-        }, 100)
+        }, 50)
     } else if (x == 0 && y > 0) {
         y -= 10
         block.style.top = `${y}px`
         setTimeout(() => {
             motion()
-        }, 100)
+        }, 50)
     } else {
         return;
     }
